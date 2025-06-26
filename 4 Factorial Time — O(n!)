@@ -1,0 +1,7 @@
+import itertools
+
+def all_permutations(arr):
+    return list(itertools.permutations(arr))
+
+//Если нужно перебрать все возможные перестановки N элементов — их N! (факториал).
+Для 5 элементов — 120 вариантов, для 10 — уже 3,628,800.//
